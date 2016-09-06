@@ -19,6 +19,9 @@
     this.get('#/', function(context) {
       context.app.swap('');
       $.each(context.stocks, function(i, stock) {
+        if(stock.name.length > 40) {
+          stock.name = stock.name.slice(0, 36) + '...'
+        }
         context.partial('templates/stock.template', {id: i, stock: stock}, function(rendered) {
           context.$element().append(rendered);
         });
