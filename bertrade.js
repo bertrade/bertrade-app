@@ -28,9 +28,16 @@
       });
     });
 
-    this.get('#/stock/:id', function(context) {
-      this.stock = this.stocks[this.params['id']];
-      if (!this.stock) { return this.notFound(); }
+    this.get('#/stock/:local_ticker', function(context) {
+      local_ticker = this.params['local_ticker']
+      foundStock = false;
+      this.stocks.forEach( function(stock, index){
+        if(stock.local_ticker == local_ticker) {
+          foundStock = stock;
+        }
+      })
+      console.log(foundStock);
+      if (!foundStock) { return this.notFound(); } else { this.stock = foundStock }
       this.partial('templates/stock_detail.template');
     });
 

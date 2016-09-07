@@ -1,10 +1,16 @@
-<div class="item-detail">
-  <div class="item-image"><img src="<%= item.large_image %>" alt="<%= item.title %>" /></div>
-  <div class="item-info">
-    <div class="item-artist"><%= item.artist %></div>
-    <div class="item-title"><%= item.title %></div>
-    <div class="item-price">$<%= item.price %></div>
-    <div class="item-link"><a href="<%= item.url %>">Buy this item on Amazon</a></div>
-    <div class="back-link"><a href="#/">&laquo; Back to Items</a></div>
-  </div>
+<div class="col-md-12 col-sm-12 col-xs-12">
+  <img src="<%= stock.img %>"/>
+  <h1><%= stock.local_ticker %></h1>
+  <span class="info-box-number">Name</span>
+  <span class="info-box-more"><%= stock.name %></span></br>
+  <span class="info-box-number">Yahoo ticker</span>
+  <span class="info-box-more"><a href="http://finance.yahoo.com/quote/<%= stock.yahoo_ticker %>"><%= stock.yahoo_ticker %></a></span></br>
+  <span class="info-box-number">Bloomberg ticker</span>
+  <span class="info-box-more"><a href="http://bloomberg.com/quote/<%= stock.bloomberg_ticker %>"><%= stock.bloomberg_ticker %></a></span></br>
+  <span class="info-box-number">Industries</span>
+  <span class="info-box-more"><%= stock.industries %></span></br>
+  <span class="info-box-number">Description</span>
+  <span class="info-box-more"><%= stock.company_description %></span></br>
+  <span class="info-box-number">Key people</span>
+  <span class="info-box-more"><%= stock.key_people %></span>
 </div>

@@ -1,8 +1,8 @@
 <div class="col-md-4 col-sm-6 col-xs-12">
     <div class="info-box">
-        <a href="#"><span class="info-box-icon"><img src="<%= stock.img %>"/></span></a>
+        <a href="#/stock/<%= stock.local_ticker %>"><span class="info-box-icon"><img src="<%= stock.img %>"/></span></a>
         <div class="info-box-content">
-            <span class="info-box-number"><a href="#"><%= stock.bloomberg_ticker %></a></span>
+            <span class="info-box-number"><a href="#/stock/<%= stock.local_ticker %>"><%= stock.local_ticker %></a></span>
             <span class="info-box-more"><%= stock.name %></span></br>
             <span class="info-box-more"><%= stock.industries[2] %></span>
         </div>
