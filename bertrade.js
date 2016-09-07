@@ -29,18 +29,19 @@
     });
 
     this.get('#/stock/:local_ticker', function(context) {
-      local_ticker = this.params['local_ticker']
+      self = this;
       foundStock = false;
-      this.stocks.forEach( function(stock, index){
-        if(stock.local_ticker == local_ticker) {
+      self.stocks.forEach( function(stock, index){
+        if(stock.local_ticker == self.params['local_ticker']) {
           foundStock = stock;
+          getStock({ stock: stock.yahoo_ticker, startDate: '2016-01-01', endDate: '2016-01-05' }, 'historicaldata', function(err, data) {
+              console.log(data);
+              if (!foundStock) { return this.notFound(); } else { this.stock = foundStock }
+              self.partial('templates/stock_detail.template');
+          });
         }
       })
-      console.log(foundStock);
-      if (!foundStock) { return this.notFound(); } else { this.stock = foundStock }
-      this.partial('templates/stock_detail.template');
     });
-
   });
 
   $(function() {
