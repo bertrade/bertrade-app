@@ -9,7 +9,7 @@
         "Engineering & Construction Svcs",
         "Infrastructure Construction"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/ICAa2894.png",
       "bloomberg_ticker":"ICA*:MM",
       "key_people":[
         "Luis Fernando Zarate Rocha",
@@ -27,7 +27,7 @@
         "Waste & Environ Svcs & Equip",
         "Waste Management"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/PASAced36.png",
       "bloomberg_ticker":"PASAB:MM",
       "key_people":[
         "Alberto Eugenio Garza Santos",
@@ -45,7 +45,7 @@
         "Specialty Finance",
         "Consumer Finance"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/FINDEPe16b3.png",
       "bloomberg_ticker":"FINDEP*:MM",
       "key_people":[
         "Mauricio Galan Medina",
@@ -63,7 +63,7 @@
         "Media",
         "Cable & Satellite"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/MEGA330cf.png",
       "bloomberg_ticker":"MEGACPO:MM",
       "key_people":[
         "Francisco Javier Robinson Bours Castelo",
@@ -81,7 +81,7 @@
         "Manufactured Goods",
         "Rubber & Plastic"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/KUOf003d.png",
       "bloomberg_ticker":"KUOB:MM",
       "key_people":[
         "Fernando Senderos Mestre",
@@ -99,7 +99,7 @@
         "Real Estate",
         "Real Estate Owners & Developers"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/VESTAa0379.png",
       "bloomberg_ticker":"VESTA*:MM",
       "key_people":[
         "Lorenzo Manuel Berho Corona",
@@ -117,7 +117,7 @@
         "Home & Office Products",
         "Homebuilders"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/HOMEXdd2e1.png",
       "bloomberg_ticker":"HOMEX*:MM",
       "key_people":[
         "Eustaquio Tomas De Nicolas Gutierrez",
@@ -135,7 +135,7 @@
         "Chemicals",
         "Basic & Diversified Chemicals"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/ALPEKf817a.png",
       "bloomberg_ticker":"ALPEKA:MM",
       "key_people":[
         "Jose De Jesus Valdez Simancas",
@@ -153,7 +153,7 @@
         "Insurance",
         "P&C Insurance"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/QC3c76f.png",
       "bloomberg_ticker":"QCA:MM",
       "key_people":[
         "Joaquin Brockman Lozano",
@@ -171,7 +171,7 @@
         "Real Estate",
         "REIT"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/FUNO0b70f.png",
       "bloomberg_ticker":"FUNO11:MM",
       "key_people":[
         "Moises El-Mann Arazi",
@@ -189,7 +189,7 @@
         "Banking",
         "Banks"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/GFINBUR09d05.png",
       "bloomberg_ticker":"GFINBURO:MM",
       "key_people":[
         "Marco Antonio Slim",
@@ -207,7 +207,7 @@
         "Home & Office Products",
         "Homebuilders"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/URBI8ffeb.png",
       "bloomberg_ticker":"URBI*:MM",
       "key_people":[
         "Cuauhtemoc Perez Roman",
@@ -225,7 +225,7 @@
         "Real Estate",
         "Real Estate Owners & Developers"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/DINE3c86d.png",
       "bloomberg_ticker":"DINEA:MM",
       "key_people":[
         "Andres Banos Samblancat",
@@ -243,7 +243,7 @@
         "Banking",
         "Diversified Banks"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/Ce5367.png",
       "bloomberg_ticker":"C*:MM",
       "key_people":[
         "Mike Corbat",
@@ -261,7 +261,7 @@
         "Consumer Products",
         "Packaged Food"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/ACCELSAe9662.png",
       "bloomberg_ticker":"ACCELSAB:MM",
       "key_people":[
         "Eloy Santiago Vallina Garza",
@@ -277,7 +277,7 @@
         "Real Estate",
         "REIT"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/FIBRAMQ8588f.png",
       "bloomberg_ticker":"FIBRAMQ:MM",
       "key_people":[
         "Juan Monroy",
@@ -293,7 +293,7 @@
         "Asset Management",
         "Investment Companies"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/GFINTER17146.png",
       "bloomberg_ticker":"GFINTERO:MM",
       "key_people":[
         "Carlos Hank Rhon",
@@ -311,7 +311,7 @@
         "Retail - Consumer Staples",
         "Mass Merchants"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/WALMEXce827.png",
       "bloomberg_ticker":"WALMEX*:MM",
       "key_people":[
         "Guilherme Loureiro",
@@ -329,7 +329,7 @@
         "Consumer Products",
         "Beverages"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/AC1d6d0.png",
       "bloomberg_ticker":"AC*:MM",
       "key_people":[
         "Francisco Rogelio Garza Egloff",
@@ -347,7 +347,7 @@
         "Construction Materials",
         "Cement & Aggregates"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/GISSA4dddc.png",
       "bloomberg_ticker":"GISSAA:MM",
       "key_people":[
         "Juan Carlos Lopez Villareal",
@@ -365,7 +365,7 @@
         "Insurance",
         "Life Insurance"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/GPROFUTe6326.png",
       "bloomberg_ticker":"GPROFUT*:MM",
       "key_people":[
         "Jose Eduardo Silva Pylypciow",
@@ -381,7 +381,7 @@
         "Telecom",
         "Telecom Carriers"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/AMXff445.png",
       "bloomberg_ticker":"AMXL:MM",
       "key_people":[
         "Carlos Slim Domit",
@@ -399,7 +399,7 @@
         "Biotech & Pharma",
         "Specialty Pharma"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/LABd46db.png",
       "bloomberg_ticker":"LABB:MM",
       "key_people":[
         "Antonio Zamora Galland",
@@ -417,7 +417,7 @@
         "Specialty Finance",
         "Consumer Finance"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/CREALa5e68.png",
       "bloomberg_ticker":"CREAL*:MM",
       "key_people":[
         "Angel Francisco Romanos Berrondo",
@@ -435,7 +435,7 @@
         "Telecom",
         "Telecom Carriers"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/MAXCOM5660b.png",
       "bloomberg_ticker":"MAXCOMA:MM",
       "key_people":[
         "Jose Gomez Obregon Fernandez",
@@ -450,7 +450,7 @@
         "Containers & Packaging",
         "Containers & Packaging"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/VITRO457cd.png",
       "bloomberg_ticker":"VITROA:MM",
       "key_people":[
         "Adrian Sada Gonzalez",
@@ -468,7 +468,7 @@
         "Retail - Consumer Staples",
         "Mass Merchants"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/CHDRAUI501ed.png",
       "bloomberg_ticker":"CHDRAUIB:MM",
       "key_people":[
         "Alfredo Chedraui Obeso",
@@ -486,7 +486,7 @@
         "Metals & Mining",
         "Precious Metal Mining"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/PEOLES7a557.png",
       "bloomberg_ticker":"PE&OLES*:MM",
       "key_people":[
         "Sergio Fernando Alanis Ortega",
@@ -504,7 +504,7 @@
         "Home & Office Products",
         "Home & Office Furnishings"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/VASCONI45f61.png",
       "bloomberg_ticker":"VASCONI*:MM",
       "key_people":[
         "Jose Ramon Elizondo Anaya",
@@ -520,7 +520,7 @@
         "Chemicals",
         "Agricultural Chemicals"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/SAVIA75227.png",
       "bloomberg_ticker":"SAVIA:MM",
       "key_people":[
         "Alfonso Romo Garza",
@@ -538,7 +538,7 @@
         "Metals & Mining",
         "Base Metals"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/GMEXICO89a4a.png",
       "bloomberg_ticker":"GMEXICOB:MM",
       "key_people":[
         "German Larrea Mota-Velasco",
@@ -556,7 +556,7 @@
         "Gaming, Lodging & Restaurants",
         "Lodging"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/POSADASa5cd5.png",
       "bloomberg_ticker":"POSADASA:MM",
       "key_people":[
         "Jose Carlos Azcarraga Andrade",
@@ -574,7 +574,7 @@
         "Retail - Consumer Staples",
         "Food & Drug Stores"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/BEVIDESe9efd.png",
       "bloomberg_ticker":"BEVIDESB:MM",
       "key_people":[
         "Enrique Mouret Benavides",
@@ -592,7 +592,7 @@
         "Retail - Discretionary",
         "Department Stores"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/GSANBOR9efff.png",
       "bloomberg_ticker":"GSANBOB1:MM",
       "key_people":[
         "Patrick Slim Domit",
@@ -610,7 +610,7 @@
         "Institutional Financial Svcs",
         "Institutional Brokerage"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/FINAMEX10d8d.png",
       "bloomberg_ticker":"FINAMEXO:MM",
       "key_people":[
         "Ricardo Perez Mainou",
@@ -627,7 +627,7 @@
         "Home & Office Products",
         "Homebuilders"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/GEOd6660.png",
       "bloomberg_ticker":"GEOB:MM",
       "key_people":[
         "Juan Carlos Braniff Hierro",
@@ -645,7 +645,7 @@
         "Containers & Packaging",
         "Containers & Packaging"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/PAPPELccb66.png",
       "bloomberg_ticker":"PAPPEL*:MM",
       "key_people":[
         "Miguel Rincon Arredondo",
@@ -663,7 +663,7 @@
         "Metals & Mining",
         "Precious Metal Mining"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/FRES7f19c.png",
       "bloomberg_ticker":"FRES*:MM",
       "key_people":[
         "Octavio Alvidrez",
@@ -681,7 +681,7 @@
         "Consumer Products",
         "Household Products"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/KIMBER41640.png",
       "bloomberg_ticker":"KIMBERA:MM",
       "key_people":[
         "Pablo Roberto Gonzalez Guajardo",
@@ -699,7 +699,7 @@
         "Passenger Transportation",
         "Airlines"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/VOLAR27a18.png",
       "bloomberg_ticker":"VOLARA:MM",
       "key_people":[
         "Enrique Beltranena",
@@ -717,7 +717,7 @@
         "Consumer Products",
         "Packaged Food"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/GMACMAb0ec9.png",
       "bloomberg_ticker":"GMACMAB:MM",
       "key_people":[
         "Carlos Olazabal Forcen",
@@ -732,7 +732,7 @@
         "Specialty Finance",
         "Consumer Finance"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/INVEX0cf7c.png",
       "bloomberg_ticker":"INVEXA:MM",
       "key_people":[
         "Juan Bautista Guichard Michel",
@@ -748,7 +748,7 @@
         "Retail - Discretionary",
         "Department Stores"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/GFAMSA7d941.png",
       "bloomberg_ticker":"GFAMSAA:MM",
       "key_people":[
         "Humberto Garza Gonzalez",
@@ -766,7 +766,7 @@
         "Iron & Steel",
         "Steel Producers"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/TS4c601.png",
       "bloomberg_ticker":"TS*:MM",
       "key_people":[
         "Paolo Mario Rocca",
@@ -784,7 +784,7 @@
         "Institutional Financial Svcs",
         "Institutional Brokerage"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/ACTINVRd0e2e.png",
       "bloomberg_ticker":"ACTINVRB:MM",
       "key_people":[
         "Hector Madero Rivero",
@@ -802,7 +802,7 @@
         "Chemicals",
         "Basic & Diversified Chemicals"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/MEXCHEM74b66.png",
       "bloomberg_ticker":"MEXCHEM*:MM",
       "key_people":[
         "Antonio Carrillo Rule",
@@ -820,7 +820,7 @@
         "Apparel & Textile Products",
         "Textile & Textile Products"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/HILASAL0c175.png",
       "bloomberg_ticker":"HILASALA:MM",
       "key_people":[
         "Jorge Antonio Garcia Fernandez",
@@ -835,7 +835,7 @@
         "Construction Materials",
         "Cement & Aggregates"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/CEMEX17cb6.png",
       "bloomberg_ticker":"CEMEXCPO:MM",
       "key_people":[
         "Fernando Gonzalez Olivieri",
@@ -853,7 +853,7 @@
         "Consumer Products",
         "Packaged Food"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/BIMBO9ad07.png",
       "bloomberg_ticker":"BIMBOA:MM",
       "key_people":[
         "Daniel Servitje Montull",
@@ -871,7 +871,7 @@
         "Chemicals",
         "Specialty Chemicals"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/POCHTEC38f1d.png",
       "bloomberg_ticker":"POCHTECB:MM",
       "key_people":[
         "Juan Carlos Mateos",
@@ -889,7 +889,7 @@
         "Consumer Products",
         "Beverages"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/CULTIBA9e00a.png",
       "bloomberg_ticker":"CULTIBAB:MM",
       "key_people":[
         "Juan Ignacio Gallardo Thurlow",
@@ -907,7 +907,7 @@
         "Metals & Mining",
         "Precious Metal Mining"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/MFRISCOcd508.png",
       "bloomberg_ticker":"MFRISCOA:MM",
       "key_people":[
         "Alejandro Aboumrad Gonzalez",
@@ -923,7 +923,7 @@
         "Consumer Products",
         "Beverages"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/FEMSA4af70.png",
       "bloomberg_ticker":"FEMSAB:MM",
       "key_people":[
         "Jose Antonio Fernandez Carbajal",
@@ -941,7 +941,7 @@
         "Containers & Packaging",
         "Containers & Packaging"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/CONVER5154f.png",
       "bloomberg_ticker":"CONVERA:MM",
       "key_people":[
         "Jorge Salcedo Padilla Jr",
@@ -959,7 +959,7 @@
         "Transportation & Logistics",
         "Marine Shipping"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/TMMc8c9e.png",
       "bloomberg_ticker":"TMMA:MM",
       "key_people":[
         "Jose F Serrano Segovia",
@@ -977,7 +977,7 @@
         "Transportation & Logistics",
         "Transport Support Services"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/GAP84ce6.png",
       "bloomberg_ticker":"GAPB:MM",
       "key_people":[
         "Laura Diez Barroso Azcarraga",
@@ -995,7 +995,7 @@
         "Banking",
         "Banks"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/GFREGIOef025.png",
       "bloomberg_ticker":"GFREGIO:MM",
       "key_people":[
         "Manuel Gerardo Rivero Santos",
@@ -1013,7 +1013,7 @@
         "Media",
         "Cable & Satellite"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/CABLEacefa.png",
       "bloomberg_ticker":"CABLECPO:MM",
       "key_people":[
         "Emilio Fernando Azcarraga Jean",
@@ -1031,7 +1031,7 @@
         "Gaming, Lodging & Restaurants",
         "Restaurants"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/CMRf795b.png",
       "bloomberg_ticker":"CMRB:MM",
       "key_people":[
         "Joaquin Vargas Mier y Teran",
@@ -1049,7 +1049,7 @@
         "Construction Materials",
         "Wood Building Materials"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/TEAKe8778.png",
       "bloomberg_ticker":"TEAKCPO:MM",
       "key_people":[
         "Hector Eduardo Bonilla Castaneda",
@@ -1067,7 +1067,7 @@
         "Institutional Financial Svcs",
         "Institutional Brokerage"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/GFMULTIbe193.png",
       "bloomberg_ticker":"GFMULTIO:MM",
       "key_people":[
         "Javier Valadez Benitez",
@@ -1083,7 +1083,7 @@
         "Real Estate",
         "REIT"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/TERRA8b277.png",
       "bloomberg_ticker":"TERRA13:MM",
       "key_people":[
         "Alberto Chretin Castillo",
@@ -1099,7 +1099,7 @@
         "Health Care Facilities & Svcs",
         "Health Care Supply Chain"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/SAB952a0.png",
       "bloomberg_ticker":"SAB*:MM",
       "key_people":[
         "Manuel Saba Ades",
@@ -1117,7 +1117,7 @@
         "Home & Office Products",
         "Home Improvement"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/CERAMICb92db.png",
       "bloomberg_ticker":"CERAMICB:MM",
       "key_people":[
         "Victor D Almeida Garcia",
@@ -1135,7 +1135,7 @@
         "Insurance",
         "Life Insurance"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/LASEG410f7.png",
       "bloomberg_ticker":"LASEG:MM",
       "key_people":[
         "Teodoro Amerlinck Y Zirion",
@@ -1153,7 +1153,7 @@
         "Media",
         "Publishing & Broadcasting"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/TLEVISA352e8.png",
       "bloomberg_ticker":"TLEVISAA:MM",
       "key_people":[
         "Emilio Fernando Azcarraga Jean",
@@ -1171,7 +1171,7 @@
         "Real Estate",
         "REIT"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/FSHOP2b04c.png",
       "bloomberg_ticker":"FSHOP13:MM",
       "key_people":[
         "Salvador Cayon Ceballos",
@@ -1189,7 +1189,7 @@
         "Media",
         "Publishing & Broadcasting"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/RCENTRO74312.png",
       "bloomberg_ticker":"RCENTROA:MM",
       "key_people":[
         "Francisco Aguirre Gomez",
@@ -1207,7 +1207,7 @@
         "Home & Office Products",
         "Home Improvement"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/LAMOSAe0a0c.png",
       "bloomberg_ticker":"LAMOSA*:MM",
       "key_people":[
         "Federico Toussaint Elosua",
@@ -1225,7 +1225,7 @@
         "Real Estate",
         "REIT"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/FINNdf59c.png",
       "bloomberg_ticker":"FINN13:MM",
       "key_people":[
         "Victor Zorrilla Vargas",
@@ -1243,7 +1243,7 @@
         "Specialty Finance",
         "Other Financial Services"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/MONEX91588.png",
       "bloomberg_ticker":"MONEXA:MM",
       "key_people":[
         "Hector Pio Lagos Donde",
@@ -1259,7 +1259,7 @@
         "Media",
         "Publishing & Broadcasting"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/QUMMA96727.png",
       "bloomberg_ticker":"QUMMAA:MM",
       "key_people":[
         "Luis Benjamin Fernandez Perez"
@@ -1273,7 +1273,7 @@
         "Engineering & Construction Svcs",
         "Infrastructure Construction"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/GMDf0ed2.png",
       "bloomberg_ticker":"GMD*:MM",
       "key_people":[
         "Jorge Eduardo Ballesteros Zavala",
@@ -1291,7 +1291,7 @@
         "Home & Office Products",
         "Homebuilders"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/SARE6c2de.png",
       "bloomberg_ticker":"SAREB:MM",
       "key_people":[
         "Juan Carlos Diaz Arelle",
@@ -1307,7 +1307,7 @@
         "Consumer Products",
         "Packaged Food"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/HERDEZ2179e.png",
       "bloomberg_ticker":"HERDEZ*:MM",
       "key_people":[
         "Hector Hernandez Pons-Torres",
@@ -1325,7 +1325,7 @@
         "Real Estate",
         "REIT"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/FIBRAPL90c40.png",
       "bloomberg_ticker":"FIBRAPL:MM",
       "key_people":[
         "Luis Gutierrez",
@@ -1342,7 +1342,7 @@
         "Gaming, Lodging & Restaurants",
         "Restaurants"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/ALSEA98acd.png",
       "bloomberg_ticker":"ALSEA*:MM",
       "key_people":[
         "Alberto Torrado Martinez",
@@ -1360,7 +1360,7 @@
         "Insurance",
         "P&C Insurance"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/GNP2d4c9.png",
       "bloomberg_ticker":"GNP*:MM",
       "key_people":[
         "Alberto Bailleres Gonzalez",
@@ -1378,7 +1378,7 @@
         "Retail - Consumer Staples",
         "Food & Drug Stores"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/FRAGUA2d8da.png",
       "bloomberg_ticker":"FRAGUAB:MM",
       "key_people":[
         "Javier Arroyo Chavez",
@@ -1396,7 +1396,7 @@
         "Consumer Products",
         "Beverages"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/KOFf8240.png",
       "bloomberg_ticker":"KOFA:MM",
       "key_people":[
         "John Anthony Santa Maria Otazua",
@@ -1414,7 +1414,7 @@
         "Banking",
         "Banks"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/SANMEXf06d0.png",
       "bloomberg_ticker":"SANMEXB:MM",
       "key_people":[
         "Hector Blas Grisi Checa",
@@ -1432,7 +1432,7 @@
         "Apparel & Textile Products",
         "Textile & Textile Products"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/EDOARDO00554.png",
       "bloomberg_ticker":"EDOARDOB:MM",
       "key_people":[
         "Xavier Antoni Martin",
@@ -1447,7 +1447,7 @@
         "Transportation & Logistics",
         "Transport Support Services"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/ASUR2e0a3.png",
       "bloomberg_ticker":"ASURB:MM",
       "key_people":[
         "Adolfo Castro Rivas",
@@ -1465,7 +1465,7 @@
         "Gaming, Lodging & Restaurants",
         "Lodging"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/CIDMEGA75081.png",
       "bloomberg_ticker":"CIDMEGA*:MM",
       "key_people":[
         "Carlos Berdegue Sacristan",
@@ -1483,7 +1483,7 @@
         "Chemicals",
         "Basic & Diversified Chemicals"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/TEKCHEM04566.png",
       "bloomberg_ticker":"TEKCHEMA:MM",
       "key_people":[
         "Jose Carral Cuevas",
@@ -1500,7 +1500,7 @@
         "Asset Management",
         "Private Equity"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/PROCORP5fcdc.png",
       "bloomberg_ticker":"PROCORPA:MM",
       "key_people":[
 
@@ -1514,7 +1514,7 @@
         "Banking",
         "Diversified Banks"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/SANcab30.png",
       "bloomberg_ticker":"SAN*:MM",
       "key_people":[
         "Ana Botin",
@@ -1532,7 +1532,7 @@
         "Specialty Finance",
         "Other Financial Services"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/VALUEGFd2752.png",
       "bloomberg_ticker":"VALUEGFO:MM",
       "key_people":[
         "Carlos Bremer Gutierrez",
@@ -1548,7 +1548,7 @@
         "Iron & Steel",
         "Steel Producers"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/AHMSAbb729.png",
       "bloomberg_ticker":"AHMSA*:MM",
       "key_people":[
         "Alonso Ancira \"Elizondo\"",
@@ -1566,7 +1566,7 @@
         "Retail - Consumer Staples",
         "Food & Drug Stores"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/SORIANA11402.png",
       "bloomberg_ticker":"SORIANAB:MM",
       "key_people":[
         "Ricardo Martin Bringas",
@@ -1584,7 +1584,7 @@
         "Engineering & Construction Svcs",
         "Infrastructure Construction"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/PINFRA9b92e.png",
       "bloomberg_ticker":"PINFRA*:MM",
       "key_people":[
         "David Penaloza Alanis",
@@ -1602,7 +1602,7 @@
         "Chemicals",
         "Basic & Diversified Chemicals"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/CYDSASAd1198.png",
       "bloomberg_ticker":"CYDSASAA:MM",
       "key_people":[
         "Tomas Gonzalez Sada",
@@ -1620,7 +1620,7 @@
         "Recreation Facilities & Svcs",
         "Entertainment Facilities"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/CIEf74b1.png",
       "bloomberg_ticker":"CIEB:MM",
       "key_people":[
         "Luis Alejandro Soberon Kuri",
@@ -1638,7 +1638,7 @@
         "Institutional Financial Svcs",
         "Security & Cmdty Exchanges"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/BOLSA07c9a.png",
       "bloomberg_ticker":"BOLSAA:MM",
       "key_people":[
         "Jaime Ruiz Sacristan",
@@ -1656,7 +1656,7 @@
         "Iron & Steel",
         "Steel Producers"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/SIMECda7f6.png",
       "bloomberg_ticker":"SIMECB:MM",
       "key_people":[
         "Luis Garcia Limon",
@@ -1673,7 +1673,7 @@
         "Engineering & Construction Svcs",
         "Infrastructure Construction"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/OHLMEX3408e.png",
       "bloomberg_ticker":"OHLMEX*:MM",
       "key_people":[
         "Hector Arturo Eugenio Quinde Razuri",
@@ -1691,7 +1691,7 @@
         "Gaming, Lodging & Restaurants",
         "Lodging"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/HCITYcfff6.png",
       "bloomberg_ticker":"HCITY*:MM",
       "key_people":[
         "Luis Eduardo Barrios Sanchez",
@@ -1709,7 +1709,7 @@
         "Insurance",
         "Life Insurance"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/GENSEGc1cf2.png",
       "bloomberg_ticker":"GENSEG*:MM",
       "key_people":[
         "Daniel Hernandez Martinez",
@@ -1727,7 +1727,7 @@
         "Retail - Discretionary",
         "Other Spec Retail - Discr"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/07/GIGANTEf928b.png",
       "bloomberg_ticker":"GIGANTE*:MM",
       "key_people":[
         "Angel Losada Moreno",
@@ -1745,7 +1745,7 @@
         "Media",
         "Publishing & Broadcasting"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/AZTECA6c0ef.png",
       "bloomberg_ticker":"AZTECAA:MM",
       "key_people":[
         "Ricardo Benjamin Salinas Pliego",
@@ -1763,7 +1763,7 @@
         "Chemicals",
         "Basic & Diversified Chemicals"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/ALFA05f44.png",
       "bloomberg_ticker":"ALFAA:MM",
       "key_people":[
         "Armando Garza Sada",
@@ -1781,7 +1781,7 @@
         "Consumer Products",
         "Packaged Food"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/BACHOCO293c5.png",
       "bloomberg_ticker":"BACHOCOB:MM",
       "key_people":[
         "Rodolfo Ramos Arvizu",
@@ -1799,7 +1799,7 @@
         "Banking",
         "Banks"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/GFNORTEb179b.png",
       "bloomberg_ticker":"GFNORTEO:MM",
       "key_people":[
         "Carlos Hank Gonzalez",
@@ -1817,7 +1817,7 @@
         "Distributors - Discretionary",
         "Consumer Elec & Applc Whslrs"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/GOMO23a23.png",
       "bloomberg_ticker":"GOMO*:MM",
       "key_people":[
         "Juan Manuel Jimenez Gomez",
@@ -1835,7 +1835,7 @@
         "Construction Materials",
         "Cement & Aggregates"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/CMOCTEZb26c4.png",
       "bloomberg_ticker":"CMOCTEZ*:MM",
       "key_people":[
         "Pedro Carranza Andresen",
@@ -1853,7 +1853,7 @@
         "Banking",
         "Banks"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/GENTERAc5619.png",
       "bloomberg_ticker":"GENTERA*:MM",
       "key_people":[
         "Carlos Antonio Danel Cendoya",
@@ -1871,7 +1871,7 @@
         "Iron & Steel",
         "Metal Svc Center & Other Whslrs"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/COLLADOd6941.png",
       "bloomberg_ticker":"COLLADO*:MM",
       "key_people":[
         "Guillermo Francisco Vogel Hinojosa",
@@ -1889,7 +1889,7 @@
         "Engineering & Construction Svcs",
         "Non-Residential Bldg Const"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/ARISTOS1581c.png",
       "bloomberg_ticker":"ARISTOSA:MM",
       "key_people":[
         "Jose F Abed Rouanett",
@@ -1905,7 +1905,7 @@
         "Consumer Products",
         "Agricultural Producers"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/MASECA9022a.png",
       "bloomberg_ticker":"MASECAA:MM",
       "key_people":[
         "Juan Antonio Gonzalez Moreno",
@@ -1923,7 +1923,7 @@
         "Consumer Products",
         "Packaged Food"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/LALAea4b6.png",
       "bloomberg_ticker":"LALAB:MM",
       "key_people":[
         "Alberto A Arellano Garcia",
@@ -1941,7 +1941,7 @@
         "Recreation Facilities & Svcs",
         "Leisure Clubs & Facilities"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/SPORTe8520.png",
       "bloomberg_ticker":"SPORTS:MM",
       "key_people":[
         "Fabian Bifaretti Zanetto",
@@ -1959,7 +1959,7 @@
         "Insurance",
         "Life Insurance"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/PV1aae3.png",
       "bloomberg_ticker":"PV*:MM",
       "key_people":[
         "Maria Beatriz Escobedo Conover",
@@ -1976,7 +1976,7 @@
         "Chemicals",
         "Basic & Diversified Chemicals"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/QBINDUS60c62.png",
       "bloomberg_ticker":"QBINDUSB:MM",
       "key_people":[
         "Arnoldo De Rienzo Betancourt",
@@ -1991,7 +1991,7 @@
         "Passenger Transportation",
         "Airlines"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/AEROMEXbe9fb.png",
       "bloomberg_ticker":"AEROMEX*:MM",
       "key_people":[
         "Andres Conesa Labastida",
@@ -2009,7 +2009,7 @@
         "Utilities",
         "Utility Networks"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/IENOVAb5443.png",
       "bloomberg_ticker":"IENOVA*:MM",
       "key_people":[
         "Carlos Ruiz Sacristan",
@@ -2027,7 +2027,7 @@
         "Real Estate",
         "REIT"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/DANHOS28274.png",
       "bloomberg_ticker":"DANHOS13:MM",
       "key_people":[
         "David Daniel Kabbaz Chiver",
@@ -2045,7 +2045,7 @@
         "Construction Materials",
         "Cement & Aggregates"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/GCCd7a7d.png",
       "bloomberg_ticker":"GCC*:MM",
       "key_people":[
         "Hector Enrique Escalante Ochoa",
@@ -2063,7 +2063,7 @@
         "Retail - Discretionary",
         "Department Stores"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/LIVEPOLcce37.png",
       "bloomberg_ticker":"LIVEPOL1:MM",
       "key_people":[
         "Graciano Guichard Michel",
@@ -2081,7 +2081,7 @@
         "Banking",
         "Banks"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/BBVAee61e.png",
       "bloomberg_ticker":"BBVA*:MM",
       "key_people":[
         "Francisco Gonzalez Rodriguez",
@@ -2099,7 +2099,7 @@
         "Health Care Facilities & Svcs",
         "Health Care Facilities"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/MEDICAe9576.png",
       "bloomberg_ticker":"MEDICAB:MM",
       "key_people":[
         "Misael Uribe Esquivel",
@@ -2117,7 +2117,7 @@
         "Transportation & Logistics",
         "Transport Support Services"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/OMA10b22.png",
       "bloomberg_ticker":"OMAB:MM",
       "key_people":[
         "Porfirio Gonzalez Alvarez",
@@ -2135,7 +2135,7 @@
         "Consumer Products",
         "Packaged Food"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/MINSAd6a2f.png",
       "bloomberg_ticker":"MINSAB:MM",
       "key_people":[
         "Ernesto Moya Pedrola",
@@ -2153,7 +2153,7 @@
         "Banking",
         "Banks"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/ELEKTRAaa556.png",
       "bloomberg_ticker":"ELEKTRA*:MM",
       "key_people":[
         "Ricardo Benjamin Salinas Pliego",
@@ -2171,7 +2171,7 @@
         "Consumer Products",
         "Packaged Food"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/GRUMA7440f.png",
       "bloomberg_ticker":"GRUMAB:MM",
       "key_people":[
         "Juan Antonio Gonzalez Moreno",
@@ -2189,7 +2189,7 @@
         "Retail - Consumer Staples",
         "Mass Merchants"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/GCARSOa7fe0.png",
       "bloomberg_ticker":"GCARSOA1:MM",
       "key_people":[
         "Carlos Slim Domit",
@@ -2207,7 +2207,7 @@
         "Home & Office Products",
         "Homebuilders"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/ARAddc67.png",
       "bloomberg_ticker":"ARA*:MM",
       "key_people":[
         "German Ahumada Russek",
@@ -2225,7 +2225,7 @@
         "Telecom",
         "Telecom Carriers"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/AXTEL67ba2.png",
       "bloomberg_ticker":"AXTELCPO:MM",
       "key_people":[
         "Rolando Zubiran Shetler",
@@ -2243,7 +2243,7 @@
         "Iron & Steel",
         "Steel Raw Material Suppliers"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/AUTLAN8d1a0.png",
       "bloomberg_ticker":"AUTLANB:MM",
       "key_people":[
         "Oscar Maldonado Charles",
@@ -2258,7 +2258,7 @@
         "Consumer Products",
         "Agricultural Producers"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/BAFAR892fc.png",
       "bloomberg_ticker":"BAFARB:MM",
       "key_people":[
         "Oscar Eugenio Boeza Fares",
@@ -2276,7 +2276,7 @@
         "Real Estate",
         "REIT"
       ],
-      "img":"",
+      "img":"https://picoolio.net/images/2016/09/06/FIHOda9e7.png",
       "bloomberg_ticker":"FIHO12:MM",
       "key_people":[
         "Eduardo Lopez Garcia",
