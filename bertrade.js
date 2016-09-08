@@ -1,5 +1,9 @@
-(function($) {
+// Source: https://github.com/chartjs/Chart.Zoom.js/blob/master/samples/zoom.html
+var randomColor = function(opacity) {
+    return 'rgba(' + Math.round(Math.random() * 255) + ',' + Math.round(Math.random() * 255) + ',' + Math.round(Math.random() * 255) + ',' + (opacity || '.3') + ')';
+};
 
+(function($) {
   var app = $.sammy(function() {
     this.element_selector = '#main';
     this.use(Sammy.Template);
@@ -20,8 +24,8 @@
     this.get('#/', function(context) {
       context.app.swap('');
       $.each(context.stocks, function(i, stock) {
-        if(stock.name.length > 40) {
-          stock.name = stock.name.slice(0, 36) + '...'
+        if(stock.name.length > 32) {
+          stock.name = stock.name.slice(0, 28) + '...'
         }
         context.partial('templates/stock.template', {id: i, stock: stock}, function(rendered) {
           context.$element().append(rendered);
@@ -30,41 +34,9 @@
       });
     });
 
-    this.bind('renderCharts', function(e, chartData){
-      function renderCharts(chartData){
-        var chartOptions = {
-          scaleShowGridLines: true,
-          scaleGridLineColor: "rgba(0,0,0,.05)",
-          scaleGridLineWidth: 1,
-          scaleShowHorizontalLines: true,
-          scaleShowVerticalLines: true,
-          datasetStroke: true,
-          datasetStrokeWidth: 2,
-          legendTemplate: "<ul class=\"<%=name.toLowerCase()%>-legend\"><% for (var i=0; i<datasets.length; i++){%><li><span style=\"background-color:<%=datasets[i].lineColor%>\"></span><%if(datasets[i].label){%><%=datasets[i].label%><%}%></li><%}%></ul>",
-          maintainAspectRatio: true,
-          responsive: true,
-          pan: {
-              enabled: true,
-              mode: 'xy'
-          },
-          zoom: {
-              enabled: true,
-              mode: 'xy',
-              limits: {
-                  max: 10,
-                  min: 0.5
-              }
-          }
-        };
-        var lineChartCanvas = $("#lineChart").get(0).getContext("2d");
-        var lineChart = Chart.Line(lineChartCanvas, {data: chartData, options: chartOptions})
-      }
-
-      setTimeout(renderCharts, 2000, chartData);
-    });
-
     this.get('#/stock/:local_ticker', function(context) {
       self = this;
+      // function findStock()
       foundStock = false;
       self.stocks.forEach( function(stock, index){
         if(stock.local_ticker == self.params['local_ticker']) {
@@ -76,7 +48,6 @@
               if (!foundStock) { return this.notFound(); } else { this.stock = foundStock }
               self.partial('templates/stock_detail.template');
               $('html,body').scrollTop(0);
-
 
               // We got data from Yahoo, build and render charts
               data.labels = [];
@@ -121,10 +92,53 @@
                   }
                 ]
               };
+
+              chartData.datasets.forEach(function(dataset) {
+                  dataset.borderColor = randomColor(0.4);
+                  dataset.pointBorderColor = randomColor(0.7);
+                  dataset.pointBackgroundColor = randomColor(0.5);
+                  dataset.pointBorderWidth = 1;
+                  dataset.fill = false;
+              });
+
               self.trigger('renderCharts', chartData);
           });
         }
       })
+    });
+
+    this.bind('renderCharts', function(e, chartData){
+      function renderCharts(chartData){
+        var chartOptions = {
+          scaleShowGridLines: true,
+          scaleGridLineColor: "rgba(0,0,0,.05)",
+          scaleGridLineWidth: 1,
+          scaleShowHorizontalLines: true,
+          scaleShowVerticalLines: true,
+          responsive: true,
+          maintainAspectRatio: false,
+          pan: {
+              enabled: true,
+              mode: 'xy'
+          },
+          zoom: {
+              enabled: true,
+              mode: 'xy'
+          },
+          scales: {
+              xAxes: [{
+                  type: 'time'
+              }],
+              yAxes: [{
+                  type: 'linear'
+              }]
+          }
+        };
+        var lineChartCanvas = $("#lineChart").get(0).getContext("2d");
+        var lineChart = Chart.Line(lineChartCanvas, {data: chartData, options: chartOptions})
+      }
+
+      setTimeout(renderCharts, 2000, chartData);
     });
   });
 

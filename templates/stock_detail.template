@@ -1,76 +1,74 @@
+<!-- Company info -->
 <div class="col-md-12 col-sm-12 col-xs-12">
-  <h1 class="info-box-number centered large"><%= stock.local_ticker %></h1>
-  <div class="centered"><img src="<%= stock.img %>"/></div>
-  <p>&nbsp;</p>
-  <span class="info-box-number">Name</span>
-  <span class="info-box-more"><%= stock.name %></span></br>
-  <span class="info-box-number">Yahoo ticker</span>
-  <span class="info-box-more"><a href="http://finance.yahoo.com/quote/<%= stock.yahoo_ticker %>" target="_blank"><%= stock.yahoo_ticker %></a></span></br>
-  <span class="info-box-number">Bloomberg ticker</span>
-  <span class="info-box-more"><a href="http://bloomberg.com/quote/<%= stock.bloomberg_ticker %>" target="_blank"><%= stock.bloomberg_ticker %></a></span></br>
-  <span class="info-box-number">Industries</span>
-  <span class="info-box-more"><%= stock.industries %></span></br>
-  <span class="info-box-number">Description</span>
-  <span class="info-box-more"><%= stock.company_description %></span></br>
-  <span class="info-box-number">Key people</span>
-  <span class="info-box-more"><%= stock.key_people %></span></br>
+    <span class="info-box-number centered large"><%= stock.local_ticker %></span>
+    <p>&nbsp;</p>
+    <span class="info-box-number">Name</span>
+    <span class="info-box-more"><%= stock.name %></span></br>
+    <span class="info-box-number">Yahoo ticker</span>
+    <span class="info-box-more"><a href="http://finance.yahoo.com/quote/<%= stock.yahoo_ticker %>" target="_blank"><%= stock.yahoo_ticker %></a></span></br>
+    <span class="info-box-number">Bloomberg ticker</span>
+    <span class="info-box-more"><a href="http://bloomberg.com/quote/<%= stock.bloomberg_ticker %>" target="_blank"><%= stock.bloomberg_ticker %></a></span></br>
+    <span class="info-box-number">Industries</span>
+    <span class="info-box-more"><%= stock.industries %></span></br>
+    <span class="info-box-number">Description</span>
+    <span class="info-box-more"><%= stock.company_description %></span></br>
+    <span class="info-box-number">Key people</span>
+    <span class="info-box-more"><%= stock.key_people %></span></br>
 </div>
+<!-- Historical data table -->
 <div class="col-md-12 col-sm-12 col-xs-12">
-  <span class="info-box-number">Historical data</span></br>
-  <div class="table-responsive">
-    <table class="table no-margin">
-      <thead>
-      <tr>
-        <th>Date</th>
-        <th>Open</th>
-        <th>Close</th>
-        <th>Adj Close</th>
-        <th>High</th>
-        <th>Low</th>
-        <th>Volume</th>
-      </tr>
-      </thead>
-      <tbody>
-      <tr>
-        <td>2016-01-01</td>
-        <td>0.00</td>
-        <td>0.00</td>
-        <td>0.00</td>
-        <td>0.00</td>
-        <td>0.00</td>
-        <td>0,000</td>
-      </tr>
-      <tr>
-        <td>2016-01-02</td>
-        <td>0.00</td>
-        <td>0.00</td>
-        <td>0.00</td>
-        <td>0.00</td>
-        <td>0.00</td>
-        <td>0,000</td>
-      </tr>
-      </tbody>
-    </table>
-  </div>
-</div>
-<p>&nbsp;</p>
-<div class="col-md-12 col-sm-12 col-xs-12">
-  <div class="box box-info">
-    <div class="box-header with-border">
-      <h3 class="box-title">Prices</h3>
-      <div class="box-tools">
-        <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
-        </button>
-        <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
-      </div>
+    <span class="info-box-number">Historical data</span>
+    <div class="table-responsive">
+        <table class="table no-margin">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Open</th>
+                    <th>Close</th>
+                    <th>Adj Close</th>
+                    <th>High</th>
+                    <th>Low</th>
+                    <th>Volume</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2016-01-01</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0,000</td>
+                </tr>
+                <tr>
+                    <td>2016-01-02</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0,000</td>
+                </tr>
+            </tbody>
+        </table>
     </div>
-    <div class="box-body">
-      <div class="chart">
-        <canvas id="lineChart" style="height: 249px; width: 555px;" height="498" width="1110"></canvas>
-      </div>
-    </div>
-    <!-- /.box-body -->
-  </div>
-  <!-- /.box -->
 </div>
-<!-- /.col (RIGHT) -->
+</br>
+<div class="col-md-12 col-sm-12 col-xs-12">
+    <div class="box box-info">
+        <div class="box-header with-border">
+            <h3 class="box-title">Prices</h3>
+            <div class="box-tools">
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                </button>
+                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+            </div>
+        </div>
+        <div class="box-body">
+            <div class="chart" style="min-height: 300px;">
+                <canvas id="lineChart" style="height: 300px; width: 555px;" height="498" width="1110"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
