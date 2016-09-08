@@ -73,7 +73,7 @@
         </div>
         <div class="box-body">
             <div class="chart" style="min-height: 300px;">
-                <canvas id="pricesOverviewChart" style="height: 300px; width: 555px;" height="498" width="1110"></canvas>
+                <canvas id="priceOverviewChart" style="height: 300px; width: 555px;" height="498" width="1110"></canvas>
             </div>
         </div>
     </div>

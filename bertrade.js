@@ -62,6 +62,7 @@ var randomColor = function(opacity) {
               data.adj_close = [];
               data.high = [];
               data.low = [];
+              data.volume = [];
 
               data.quote = _.sortBy(data.quote, 'Date');
               data.quote.forEach(function(dayInfo){
@@ -71,6 +72,7 @@ var randomColor = function(opacity) {
                 data.adj_close.push(dayInfo.Adj_Close);
                 data.high.push(dayInfo.High);
                 data.low.push(dayInfo.Low);
+                data.volume.push(dayInfo.Volume);
               })
 
               var chartData = {
@@ -95,6 +97,10 @@ var randomColor = function(opacity) {
                   {
                     label: "Low",
                     data: data.low
+                  },
+                  {
+                    label: "Volume",
+                    data: data.volume
                   }
                 ]
               };
@@ -160,15 +166,18 @@ var randomColor = function(opacity) {
               }]
           }
         };
-        var lineChartCanvas = $("#pricesOverviewChart").get(0).getContext("2d");
-        var lineChart = Chart.Line(lineChartCanvas, {data: chartData, options: chartOptions})
+
+        // Copying to new object to get only the dataset we want (opening, closig, adj closing, etc.)
+        var chartDataPriceOverview = $.extend({}, chartData);
+        chartDataPriceOverview.datasets.slice(0, 4);
+        var lineChartCanvasPriceOverview = $("#priceOverviewChart").get(0).getContext("2d");
+        var lineChartPriceOverview = Chart.Line(lineChartCanvasPriceOverview, {data: chartDataPriceOverview, options: chartOptions})
 
         var chartDataVolume = $.extend({}, chartData);
-        chartDataVolume.datasets = [chartDataVolume.datasets[0]];
+        chartDataVolume.datasets = [chartDataVolume.datasets[5]];
         var lineChartCanvasVolume = $("#tradingVolumesChart").get(0).getContext("2d");
         var lineChartVolume = Chart.Bar(lineChartCanvasVolume, {data: chartDataVolume, options: chartOptions})
 
-        // Copying to new object to get only the dataset we want (opening, closig, adj closing, etc.)
         var chartDataOpening = $.extend({}, chartData);
         chartDataOpening.datasets = [chartDataOpening.datasets[0]];
         var lineChartCanvasOpening = $("#pricesOpeningChart").get(0).getContext("2d");
