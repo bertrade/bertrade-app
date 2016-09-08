@@ -11,6 +11,7 @@ var randomColor = function(opacity) {
     this.before(function() {
       var context = this;
       $.ajax({
+        // stocks.js contains the database with companies
         url: 'data/stocks.js',
         dataType: 'json',
         async: false,
@@ -24,6 +25,7 @@ var randomColor = function(opacity) {
     this.get('#/', function(context) {
       context.app.swap('');
       $.each(context.stocks, function(i, stock) {
+        // Triming with ... large texts so they fit smoothly on grid
         if(stock.name.length > 32) {
           stock.name = stock.name.slice(0, 28) + '...'
         }
@@ -36,11 +38,12 @@ var randomColor = function(opacity) {
 
     this.get('#/stock/:local_ticker', function(context) {
       self = this;
-      // function findStock()
+      // @todo: Refactor to function findStock()
       foundStock = false;
       self.stocks.forEach( function(stock){
         if(stock.local_ticker == self.params['local_ticker']) {
           foundStock = stock;
+          // Current year whole year is used for Yahoo API
           startDate = new Date().getFullYear() + '-01-01';
           endDate = new Date().getFullYear() + '-12-31';
           getStock({ stock: stock.yahoo_ticker, startDate: startDate, endDate: endDate }, 'historicaldata', function(err, data) {
@@ -49,10 +52,10 @@ var randomColor = function(opacity) {
               self.partial('templates/stock_detail.template');
               $('html,body').scrollTop(0);
 
-              // Table with prices, Volume
+              // Table with prices and volume
               self.trigger('renderTickerInfoTable', data);
 
-              // We got data from Yahoo, build and render charts
+              // We got data from Yahoo, build datasets and render charts
               data.labels = [];
               data.open = [];
               data.close = [];
@@ -110,7 +113,6 @@ var randomColor = function(opacity) {
       })
     });
 
-
     this.bind('renderTickerInfoTable', function(e, historicalData) {
       function renderTickerInfoTable(historicalData) {
         var tableHtml = '';
@@ -161,7 +163,12 @@ var randomColor = function(opacity) {
         var lineChartCanvas = $("#pricesOverviewChart").get(0).getContext("2d");
         var lineChart = Chart.Line(lineChartCanvas, {data: chartData, options: chartOptions})
 
-        // Removes datasets one by one as pop: Low, High, Adj Close, Close, Open
+        var chartDataVolume = $.extend({}, chartData);
+        chartDataVolume.datasets = [chartDataVolume.datasets[0]];
+        var lineChartCanvasVolume = $("#tradingVolumesChart").get(0).getContext("2d");
+        var lineChartVolume = Chart.Bar(lineChartCanvasVolume, {data: chartDataVolume, options: chartOptions})
+
+        // Copying to new object to get only the dataset we want (opening, closig, adj closing, etc.)
         var chartDataOpening = $.extend({}, chartData);
         chartDataOpening.datasets = [chartDataOpening.datasets[0]];
         var lineChartCanvasOpening = $("#pricesOpeningChart").get(0).getContext("2d");
@@ -181,7 +188,6 @@ var randomColor = function(opacity) {
         chartDataHigh.datasets = [chartDataHigh.datasets[3]];
         var lineChartCanvasHigh  = $("#pricesHighChart").get(0).getContext("2d");
         var lineChartHigh  = Chart.Line(lineChartCanvasHigh, {data: chartDataHigh, options: chartOptions})
-
 
         var chartDataLow = $.extend({}, chartData);
         chartDataLow.datasets = [chartDataLow.datasets[4]];
