@@ -158,8 +158,35 @@ var randomColor = function(opacity) {
               }]
           }
         };
-        var lineChartCanvas = $("#lineChart").get(0).getContext("2d");
+        var lineChartCanvas = $("#pricesOverviewChart").get(0).getContext("2d");
         var lineChart = Chart.Line(lineChartCanvas, {data: chartData, options: chartOptions})
+
+        // Removes datasets one by one as pop: Low, High, Adj Close, Close, Open
+        var chartDataOpening = $.extend({}, chartData);
+        chartDataOpening.datasets = [chartDataOpening.datasets[0]];
+        var lineChartCanvasOpening = $("#pricesOpeningChart").get(0).getContext("2d");
+        var lineChartOpening = Chart.Line(lineChartCanvasOpening, {data: chartDataOpening, options: chartOptions})
+
+        var chartDataClosing = $.extend({}, chartData);
+        chartDataClosing.datasets = [chartDataClosing.datasets[1]];
+        var lineChartCanvasClosing  = $("#pricesClosingChart").get(0).getContext("2d");
+        var lineChartClosing  = Chart.Line(lineChartCanvasClosing, {data: chartDataClosing, options: chartOptions})
+
+        var chartDataAdjClosing = $.extend({}, chartData);
+        chartDataAdjClosing.datasets = [chartDataAdjClosing.datasets[2]];
+        var lineChartCanvasAdjClosing  = $("#pricesAdjClosingChart").get(0).getContext("2d");
+        var lineChartAdjClosing  = Chart.Line(lineChartCanvasAdjClosing, {data: chartDataAdjClosing, options: chartOptions})
+
+        var chartDataHigh = $.extend({}, chartData);
+        chartDataHigh.datasets = [chartDataHigh.datasets[3]];
+        var lineChartCanvasHigh  = $("#pricesHighChart").get(0).getContext("2d");
+        var lineChartHigh  = Chart.Line(lineChartCanvasHigh, {data: chartDataHigh, options: chartOptions})
+
+
+        var chartDataLow = $.extend({}, chartData);
+        chartDataLow.datasets = [chartDataLow.datasets[4]];
+        var lineChartCanvasLow  = $("#pricesLowChart").get(0).getContext("2d");
+        var lineChartLow  = Chart.Line(lineChartCanvasLow, {data: chartDataLow, options: chartOptions})
       }
 
       setTimeout(renderCharts, 2000, chartData);

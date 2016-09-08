@@ -48,10 +48,11 @@
 </div>
 
 </br>
+<!-- Prices overview (high, low, adjusted, etc) -->
 <div class="col-md-12 col-sm-12 col-xs-12">
     <div class="box box-info">
         <div class="box-header with-border">
-            <h3 class="box-title">Prices</h3>
+            <h3 class="box-title">Prices overview</h3>
             <div class="box-tools">
                 <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
                 </button>
@@ -60,7 +61,98 @@
         </div>
         <div class="box-body">
             <div class="chart" style="min-height: 300px;">
-                <canvas id="lineChart" style="height: 300px; width: 555px;" height="498" width="1110"></canvas>
+                <canvas id="pricesOverviewChart" style="height: 300px; width: 555px;" height="498" width="1110"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Opening prices -->
+<div class="col-md-12 col-sm-12 col-xs-12">
+    <div class="box box-info">
+        <div class="box-header with-border">
+            <h3 class="box-title">Opening Prices</h3>
+            <div class="box-tools">
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                </button>
+                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+            </div>
+        </div>
+        <div class="box-body">
+            <div class="chart" style="min-height: 300px;">
+                <canvas id="pricesOpeningChart" style="height: 300px; width: 555px;" height="498" width="1110"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Closing prices -->
+<div class="col-md-12 col-sm-12 col-xs-12">
+    <div class="box box-info">
+        <div class="box-header with-border">
+            <h3 class="box-title">Closing Prices</h3>
+            <div class="box-tools">
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                </button>
+                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+            </div>
+        </div>
+        <div class="box-body">
+            <div class="chart" style="min-height: 300px;">
+                <canvas id="pricesClosingChart" style="height: 300px; width: 555px;" height="498" width="1110"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Adjusted Closing prices -->
+<div class="col-md-12 col-sm-12 col-xs-12">
+    <div class="box box-info">
+        <div class="box-header with-border">
+            <h3 class="box-title">Adjusted Closing Prices</h3>
+            <div class="box-tools">
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                </button>
+                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+            </div>
+        </div>
+        <div class="box-body">
+            <div class="chart" style="min-height: 300px;">
+                <canvas id="pricesAdjClosingChart" style="height: 300px; width: 555px;" height="498" width="1110"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- High prices -->
+<div class="col-md-12 col-sm-12 col-xs-12">
+    <div class="box box-info">
+        <div class="box-header with-border">
+            <h3 class="box-title">High Prices</h3>
+            <div class="box-tools">
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                </button>
+                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+            </div>
+        </div>
+        <div class="box-body">
+            <div class="chart" style="min-height: 300px;">
+                <canvas id="pricesHighChart" style="height: 300px; width: 555px;" height="498" width="1110"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Low prices -->
+<div class="col-md-12 col-sm-12 col-xs-12">
+    <div class="box box-info">
+        <div class="box-header with-border">
+            <h3 class="box-title">Low Prices</h3>
+            <div class="box-tools">
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                </button>
+                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+            </div>
+        </div>
+        <div class="box-body">
+            <div class="chart" style="min-height: 300px;">
+                <canvas id="pricesLowChart" style="height: 300px; width: 555px;" height="498" width="1110"></canvas>
             </div>
         </div>
     </div>
