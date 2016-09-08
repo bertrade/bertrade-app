@@ -38,7 +38,7 @@ var randomColor = function(opacity) {
       self = this;
       // function findStock()
       foundStock = false;
-      self.stocks.forEach( function(stock, index){
+      self.stocks.forEach( function(stock){
         if(stock.local_ticker == self.params['local_ticker']) {
           foundStock = stock;
           startDate = new Date().getFullYear() + '-01-01';
@@ -49,6 +49,9 @@ var randomColor = function(opacity) {
               self.partial('templates/stock_detail.template');
               $('html,body').scrollTop(0);
 
+              // Table with prices, Volume
+              self.trigger('renderTickerInfoTable', data);
+
               // We got data from Yahoo, build and render charts
               data.labels = [];
               data.open = [];
@@ -58,7 +61,7 @@ var randomColor = function(opacity) {
               data.low = [];
 
               data.quote = _.sortBy(data.quote, 'Date');
-              data.quote.forEach(function(dayInfo, index){
+              data.quote.forEach(function(dayInfo){
                 data.labels.push(dayInfo.Date);
                 data.open.push(dayInfo.Open);
                 data.close.push(dayInfo.Close);
@@ -107,8 +110,29 @@ var randomColor = function(opacity) {
       })
     });
 
-    this.bind('renderCharts', function(e, chartData){
-      function renderCharts(chartData){
+
+    this.bind('renderTickerInfoTable', function(e, historicalData) {
+      function renderTickerInfoTable(historicalData) {
+        var tableHtml = '';
+        historicalData.quote.forEach(function(dayInfo) {
+          tableHtml += '<tr>';
+          tableHtml += '<td>'+ dayInfo.Date +'</td>';
+          tableHtml += '<td>'+ dayInfo.Open +'</td>';
+          tableHtml += '<td>'+ dayInfo.Close +'</td>';
+          tableHtml += '<td>'+ dayInfo.Adj_Close +'</td>';
+          tableHtml += '<td>'+ dayInfo.High +'</td>';
+          tableHtml += '<td>'+ dayInfo.Low +'</td>';
+          tableHtml += '<td>'+ dayInfo.Volume +'</td>';
+          tableHtml += '</tr>';
+        });
+        $('#historical-data').append(tableHtml);
+      }
+
+      setTimeout(renderTickerInfoTable, 2000, historicalData);
+    });
+
+    this.bind('renderCharts', function(e, chartData) {
+      function renderCharts(chartData) {
         var chartOptions = {
           scaleShowGridLines: true,
           scaleGridLineColor: "rgba(0,0,0,.05)",
