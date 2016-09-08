@@ -10,8 +10,9 @@
         url: 'data/stocks.js',
         dataType: 'json',
         async: false,
-        success: function(stocks) {
-          context.stocks = stocks.stocks;
+        success: function(stocks_response) {
+          stocks = _.sortBy(stocks_response.stocks, 'local_ticker');
+          context.stocks = stocks;
         }
       });
     });
