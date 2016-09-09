@@ -9,4 +9,5 @@
     </author>
     <icon src="icon.png" />
     <platform name="android" />
+    <access origin="*"/>
 </widget>
