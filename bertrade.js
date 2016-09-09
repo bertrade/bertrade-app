@@ -254,7 +254,7 @@ var randomColor = function(opacity) {
               industries.forEach(function(industryName) {
                   industriesHtml += '<div class="col-md-4 col-sm-6 col-xs-12" id="industries">';
                   industriesHtml += '<div class="info-box">';
-                  industriesHtml += '<div class="info-box-content">';
+                  industriesHtml += '<div class="info-box-content no-margin">';
                   industriesHtml += '<span class="info-box-number medium"><a href="#/industry/'+ encodeURI(industryName) + '">'+ industryName +'</a></span>';
                   industriesHtml += '</div>';
                   industriesHtml += '</div>';
@@ -272,13 +272,11 @@ var randomColor = function(opacity) {
           // @todo: Refactor to function findPeople()
           key_people = [];
           self.stocks.forEach(function(stock) {
-            key_people = key_people.concat(stock.key_people);
+            stock.key_people.forEach(function(person) {
+              key_people.push({name: person, company: stock.local_ticker})
+            })
           });
-          key_people.sort();
-          // Source: http://mikeheavers.com/tutorials/removing_duplicates_in_an_array_using_javascript/
-          key_people = key_people.filter(function(elem, pos) {
-            return key_people.indexOf(elem) == pos;
-          });
+          key_people = _.sortBy(key_people, 'name');
           self.partial('templates/key_people.template');
           self.trigger('renderPeople', key_people);
         });
@@ -286,11 +284,12 @@ var randomColor = function(opacity) {
         this.bind('renderPeople', function(e, people) {
             function renderPeople(people) {
               var peopleHtml = '';
-              people.forEach(function(person_name) {
+              people.forEach(function(person) {
                   peopleHtml += '<div class="col-md-4 col-sm-6 col-xs-12" id="industries">';
                   peopleHtml += '<div class="info-box">';
-                  peopleHtml += '<div class="info-box-content">';
-                  peopleHtml += '<span class="info-box-number medium"><a href="#/person/'+ encodeURI(person_name) + '">'+ person_name +'</a></span>';
+                  peopleHtml += '<div class="info-box-content no-margin">';
+                  peopleHtml += '<span class="info-box-number medium">'+ person.name +'</span>';
+                  peopleHtml += '<span class="info-box-more"><a href="#/stock/'+ person.company + '">' + person.company + '</a></span></br>';
                   peopleHtml += '</div>';
                   peopleHtml += '</div>';
                   peopleHtml += '</div>';
@@ -302,12 +301,53 @@ var randomColor = function(opacity) {
             setTimeout(renderPeople, 2000, people);
         });
 
+        this.get('#/industry/:industry_name', function(context) {
+          self = this;
+          // @todo: Refactor to function findPeople()
+          industryStocks = [];
+          industryNameSearch = decodeURI(self.params['industry_name']);
+          self.stocks.forEach(function(stock) {
+            stock.industries.forEach(function(industryName) {
+              if(industryName == industryNameSearch) {
+                industryStocks.push({name: stock.name, ticker: stock.local_ticker, img: stock.img})
+              }
+            })
+          });
+
+          industryStocks = _.sortBy(industryStocks, 'ticker');
+          industryStocks = _.uniq(industryStocks, 'ticker'); 
+
+          self.partial('templates/industry.template');
+          self.trigger('renderIndustryStocks', industryStocks);
+        });
+
+        this.bind('renderIndustryStocks', function(e, stocks) {
+            function renderIndustryStocks(stocks) {
+              var industryStocksHtml = '';
+              stocks.forEach(function(stock) {
+                  industryStocksHtml += '<div class="col-md-4 col-sm-6 col-xs-12" id="industries">';
+                  industryStocksHtml += '<div class="info-box">';
+                  industryStocksHtml += '<a href="#/stock/' + stock.ticker + '"><span class="info-box-icon"><img src="' + stock.img + '"/></span></a>';
+                  industryStocksHtml += '<div class="info-box-content">';
+                  industryStocksHtml += '<span class="info-box-number"><a href="#/stock/' + stock.ticker + '">'+ stock.ticker + '</a></span>';
+                  industryStocksHtml += '<span class="info-box-more">' + stock.name + '</span></br>';
+                  industryStocksHtml += '</div>';
+                  industryStocksHtml += '</div>';
+                  industryStocksHtml += '</div>';
+                  industryStocksHtml += '<div class="clearfix visible-sm-block"></div>';
+              });
+              $('#industry-stocks').append(industryStocksHtml);
+            }
+
+            setTimeout(renderIndustryStocks, 2000, stocks);
+        });
+
         this.get('#/brands_products', function(context) {
-          alert('Bin hier bei Produkte!')
+          alert('Brands and products not available yet')
         });
 
         this.get('#/help', function(context) {
-          alert('Bin hier Hilfe!')
+          alert('Help not available yet')
         });
 
     });

@@ -1,4 +1,4 @@
-<span class="info-box-number centered large"><%= stock.local_ticker %></span>
+<span class="info-box-number centered xlarge"><%= stock.local_ticker %></span>
 <p>&nbsp;</p>
 <!-- Company info -->
 <div class="col-md-12 col-sm-12 col-xs-12">
