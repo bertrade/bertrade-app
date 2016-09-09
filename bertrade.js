@@ -3,6 +3,12 @@ var randomColor = function(opacity) {
     return 'rgba(' + Math.round(Math.random() * 255) + ',' + Math.round(Math.random() * 255) + ',' + Math.round(Math.random() * 255) + ',' + (opacity || '.3') + ')';
 };
 
+$('#search-btn').click(function(){
+  var ticker = $('#search-ticker-input').val().toUpperCase();
+  window.location.href = '#/stock/' + ticker;
+  return false;
+});
+
 (function($) {
     var app = $.sammy(function() {
         this.element_selector = '#main';
@@ -315,7 +321,7 @@ var randomColor = function(opacity) {
           });
 
           industryStocks = _.sortBy(industryStocks, 'ticker');
-          industryStocks = _.uniq(industryStocks, 'ticker'); 
+          industryStocks = _.uniq(industryStocks, 'ticker');
 
           self.partial('templates/industry.template');
           self.trigger('renderIndustryStocks', industryStocks);

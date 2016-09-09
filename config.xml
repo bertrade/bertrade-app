@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget id="com.mandroslabs.bertrade" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Bertrade</name>
+    <description>
+      Mobile app for exploring listed stock exchange companies currently only Mexican Stock Exchange is supported.
+    </description>
+    <author email="sabik@mandroslabs.com" href="http://mandroslabs.com">
+        Mandros Labs
+    </author>
+    <icon src="icon.png" />
+    <platform name="android" />
+</widget>
