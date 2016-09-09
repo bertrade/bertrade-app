@@ -245,7 +245,6 @@ var randomColor = function(opacity) {
             return industries.indexOf(elem) == pos;
           });
           self.partial('templates/industries.template');
-          // @todo: trigger or function
           self.trigger('renderIndustries', industries);
         });
 
@@ -269,7 +268,38 @@ var randomColor = function(opacity) {
         });
 
         this.get('#/key_people', function(context) {
-          alert('Bin hier bei Leute!')
+          self = this;
+          // @todo: Refactor to function findPeople()
+          key_people = [];
+          self.stocks.forEach(function(stock) {
+            key_people = key_people.concat(stock.key_people);
+          });
+          key_people.sort();
+          // Source: http://mikeheavers.com/tutorials/removing_duplicates_in_an_array_using_javascript/
+          key_people = key_people.filter(function(elem, pos) {
+            return key_people.indexOf(elem) == pos;
+          });
+          self.partial('templates/key_people.template');
+          self.trigger('renderPeople', key_people);
+        });
+
+        this.bind('renderPeople', function(e, people) {
+            function renderPeople(people) {
+              var peopleHtml = '';
+              people.forEach(function(person_name) {
+                  peopleHtml += '<div class="col-md-4 col-sm-6 col-xs-12" id="industries">';
+                  peopleHtml += '<div class="info-box">';
+                  peopleHtml += '<div class="info-box-content">';
+                  peopleHtml += '<span class="info-box-number medium"><a href="#/person/'+ encodeURI(person_name) + '">'+ person_name +'</a></span>';
+                  peopleHtml += '</div>';
+                  peopleHtml += '</div>';
+                  peopleHtml += '</div>';
+                  peopleHtml += '<div class="clearfix visible-sm-block"></div>';
+              });
+              $('#key-people').append(peopleHtml);
+            }
+
+            setTimeout(renderPeople, 2000, people);
         });
 
         this.get('#/brands_products', function(context) {
