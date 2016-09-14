@@ -15,8 +15,8 @@
         "company_description": "Promotora Ambiental SAB de CV provides private and domestic solid waste collection services, construction and operation of landfills, and services to the petroleum industry in Mexico.",
         "img": "https://picoolio.net/images/2016/09/06/PASAced36.png",
         "key_people": ["Alberto Eugenio Garza Santos", "Manuel Gonzalez Rodriguez", "Jose Luis Fornelli Lozano", "Guillermo Canales Lopez", "Carlos Bernardo Garza Diaz"],
-        "yahoo_ticker": "SAB.MX",
-        "local_ticker": "SAB",
+        "yahoo_ticker": "PASAB.MX",
+        "local_ticker": "PASAB",
         "name": "Promotora Ambiental SAB de CV"
     }, {
         "industries": ["Financials", "Specialty Finance", "Consumer Finance"],
@@ -132,8 +132,8 @@
         "company_description": "Accel SAB de CV offers logistical services including warehousing, distribution, and refrigeration of perishable products.  The Company also manufactures tropical sportswear apparel, and processes nuts.",
         "img": "https://picoolio.net/images/2016/09/06/ACCELSAe9662.png",
         "key_people": ["Eloy Santiago Vallina Garza", "Arturo Lardizabal Lardizabal", "Gary Ricco"],
-        "yahoo_ticker": "SAB.MX",
-        "local_ticker": "SAB",
+        "yahoo_ticker": "ACCELSAB.MX",
+        "local_ticker": "ACCELSA",
         "name": "Accel SAB de CV"
     }, {
         "industries": ["Financials", "Real Estate", "REIT"],
@@ -168,8 +168,8 @@
         "company_description": "Arca Continental SAB de CV bottles non-alcoholic branded beverages.  The Company produces carbonated soft drinks, bottled water, iced tea, and fruit drinks as well as branded snack foods. Arca Continental SAB de CV was formed from the merger of Embotelladoras Arca SAB de CV and Grupo Continental SAB.  The Company operates in Mexico, Ecuador and Northern Argentina.",
         "img": "https://picoolio.net/images/2016/09/06/AC1d6d0.png",
         "key_people": ["Francisco Rogelio Garza Egloff", "Arturo Gutierrez Hernandez", "Emilio Jesus Marcos Charur", "Guillermo Aponte Gonzalez", "Alejandro Rodriguez Saenz"],
-        "yahoo_ticker": "C.MX",
-        "local_ticker": "C",
+        "yahoo_ticker": "AC.MX",
+        "local_ticker": "AC",
         "name": "Arca Continental SAB de CV"
     }, {
         "industries": ["Materials", "Construction Materials", "Cement & Aggregates"],
@@ -222,8 +222,8 @@
         "company_description": "Maxcom Telecomunicaciones SAB de CV offers telecommunications services. The Company offers local and long distance telephone services to residences and small to medium-sized businesses, as well as conference calling, data transmission, and high-speed Internet access.  Maxcom is a facilities-based telecommunications provider (CLEC).",
         "img": "https://picoolio.net/images/2016/09/06/MAXCOM5660b.png",
         "key_people": ["Jose Gomez Obregon Fernandez", "Armando Jorge Rivero Laing"],
-        "yahoo_ticker": "OMAB.MX",
-        "local_ticker": "OMA",
+        "yahoo_ticker": "MAXCOMCPO.MX",
+        "local_ticker": "MAXCOM",
         "name": "Maxcom Telecomunicaciones SAB de CV"
     }, {
         "industries": ["Materials", "Containers & Packaging", "Containers & Packaging"],
@@ -303,8 +303,8 @@
         "company_description": "Grupo Sanborns SAB de CV owns and operates stores and restaurants. The Company produces a variety of store products including pastry shop, baking stores, and specialty products while also selling camera equipment, electronics, toys, and personal care products. Grupo Sanborns offers its products and services in Mexico.",
         "img": "https://picoolio.net/images/2016/09/06/GSANBOR9efff.png",
         "key_people": ["Patrick Slim Domit", "Mario Enrique Bermudez Davila", "Isaac Massry Nakash", "Arturo Aguirre Camacho", "Arturo Martinez Bengoa"],
-        "yahoo_ticker": "SANMEXB.MX",
-        "local_ticker": "SAN",
+        "yahoo_ticker": "GSANBORB-1.MX",
+        "local_ticker": "GSANBOR",
         "name": "Grupo Sanborns SAB de CV"
     }, {
         "industries": ["Financials", "Institutional Financial Svcs", "Institutional Brokerage"],
@@ -402,8 +402,8 @@
         "company_description": "Corporacion Actinver SAB de CV offers investment banking and securities brokerage services.  The Company offers brokerage services in investment funds, capital markets, debt capital markets, derivatives, and currency, pension plans, retirement plans, trust services, and investment banking services.  Actinver also manages investment funds.",
         "img": "https://picoolio.net/images/2016/09/06/ACTINVRd0e2e.png",
         "key_people": ["Hector Madero Rivero", "Luis Armando Alvarez Ruiz", "Fernando Perez Perez", "Roberto Valdes Acra", "Alonso Madero Rivero"],
-        "yahoo_ticker": "C.MX",
-        "local_ticker": "C",
+        "yahoo_ticker": "ACTINVRB.MX",
+        "local_ticker": "ACTINVR",
         "name": "Corp Actinver SAB de CV"
     }, {
         "industries": ["Materials", "Chemicals", "Basic & Diversified Chemicals"],
@@ -474,8 +474,8 @@
         "company_description": "Fomento Economico Mexicano, S.A.B. de C.V. (FEMSA) is a Company that through its subsidiaries produces, distributes and markets non-alcoholic beverages throughout Latin America as part of the Coca-Cola system. The Company owns and operates convenience stores in Mexico and Colombia and holds a stake in Heineken.",
         "img": "https://picoolio.net/images/2016/09/06/FEMSA4af70.png",
         "key_people": ["Jose Antonio Fernandez Carbajal", "Carlos Salazar Lomelin", "Miguel Eduardo Padilla Silva", "Jose Gonzalez Ornelas", "Javier Gerardo Astaburuaga Sanjines"],
-        "yahoo_ticker": "SAB.MX",
-        "local_ticker": "SAB",
+        "yahoo_ticker": "FEMSAUBD.MX",
+        "local_ticker": "FEMSA",
         "name": "Fomento Economico Mexicano SAB de CV"
     }, {
         "industries": ["Materials", "Containers & Packaging", "Containers & Packaging"],
@@ -753,8 +753,8 @@
         "company_description": "Grupe SAB de CV operates the El Cid Mega Resort in Mazatlan, Mexico, which consists of hotels, a golf club, a yacht club, a marina and residential units. The Company also sells time-sharing units.",
         "img": "https://picoolio.net/images/2016/09/06/CIDMEGA75081.png",
         "key_people": ["Carlos Berdegue Sacristan", "Juan Carlos Lopez Gonzalez", "Fernando Berdegue Sacristan", "Nicolas Santacruz Henriquez", "Hector Lopez Trucios"],
-        "yahoo_ticker": "MEGACPO.MX",
-        "local_ticker": "MEGA",
+        "yahoo_ticker": "CIDMEGA.MX",
+        "local_ticker": "CIDMEGA",
         "name": "Grupe SAB de CV"
     }, {
         "industries": ["Materials", "Chemicals", "Basic & Diversified Chemicals"],
@@ -897,8 +897,8 @@
         "company_description": "TV Azteca SAB de CV produces Spanish-language television programming.  The Company operates two national television networks in Mexico through owned and operated stations throughout the country.  TV Azteca also operates a broadcast television network targeted toward the Hispanic market in the United States, and an Internet company for Spanish speakers.",
         "img": "https://picoolio.net/images/2016/09/06/AZTECA6c0ef.png",
         "key_people": ["Ricardo Benjamin Salinas Pliego", "Benjamin Salinas Sada", "Esteban Galindez", "Carlos Diaz Alonso", "Joaquin Arrangoiz Orvananos"],
-        "yahoo_ticker": "C.MX",
-        "local_ticker": "C",
+        "yahoo_ticker": "AZTECACPO.MX",
+        "local_ticker": "AZTECA",
         "name": "TV Azteca SAB de CV"
     }, {
         "industries": ["Materials", "Chemicals", "Basic & Diversified Chemicals"],
@@ -915,8 +915,8 @@
         "company_description": "Industrias Bachoco SA de CV produces poultry for consumption in Mexico.  The Company operates chicken farms, processing units, feeding facilities, and incubation plants.  The Company also produces and distributes eggs, swine, and balanced feed.",
         "img": "https://picoolio.net/images/2016/09/06/BACHOCO293c5.png",
         "key_people": ["Rodolfo Ramos Arvizu", "Daniel Salazar Ferrer", "Trent Goins", "Ernesto Salmon Castelo", "Alejandro Elias Calles Gutierrez"],
-        "yahoo_ticker": "C.MX",
-        "local_ticker": "C",
+        "yahoo_ticker": "BACHOCOB.MX",
+        "local_ticker": "BACHOCO",
         "name": "Industrias Bachoco SAB de CV"
     }, {
         "industries": ["Financials", "Banking", "Banks"],
@@ -996,8 +996,8 @@
         "company_description": "Grupo Sports World SAB de CV operates family fitness clubs in Mexico. The Company offers several concepts that are specifically designed so that all family members can practice physical and sports-related activities under the same roof.  Grupo Sports World also offers training, health and nutrition services.",
         "img": "https://picoolio.net/images/2016/09/06/SPORTe8520.png",
         "key_people": ["Fabian Bifaretti Zanetto", "Federico Casillas Medellin", "Armando Alduenda", "Fernando Guzman Lopez", "Cynthia Lisette Ulloa Ayon"],
-        "yahoo_ticker": "TS.MX",
-        "local_ticker": "TS",
+        "yahoo_ticker": "SPORTS.MX",
+        "local_ticker": "SPORT",
         "name": "Grupo Sports World SAB de CV"
     }, {
         "industries": ["Financials", "Insurance", "Life Insurance"],
@@ -1095,8 +1095,8 @@
         "company_description": "Grupo Minsa SAB de CV produces masa corn flour primarily used to make tortillas, tamales, taquitos, and tortilla chips. The Company owns and operates corn flour plants in Mexico and the United States.",
         "img": "https://picoolio.net/images/2016/09/06/MINSAd6a2f.png",
         "key_people": ["Ernesto Moya Pedrola", "Jose Cacho Ribeiro", "Hubert Ehrli Torres", "Antonio Vergara Lope Martinez", "Jose Luis Rebolleda"],
-        "yahoo_ticker": "SAB.MX",
-        "local_ticker": "SAB",
+        "yahoo_ticker": "MINSAB.MX",
+        "local_ticker": "MINSA",
         "name": "Grupo Minsa SAB de CV"
     }, {
         "industries": ["Financials", "Banking", "Banks"],
@@ -1140,8 +1140,8 @@
         "company_description": "Axtel, S.A.B. de C.V. provides local and long distance telecommunications services, data transmission and internet services in Mexico, to both residential and business customers.",
         "img": "https://picoolio.net/images/2016/09/06/AXTEL67ba2.png",
         "key_people": ["Rolando Zubiran Shetler", "Felipe Carlos Canales Tijerina", "Ricardo J Hinojosa Gonzalez", "Adrian Cuadros Gutierrez", "Jose Eloy Valerio Trevino"],
-        "yahoo_ticker": "C.MX",
-        "local_ticker": "C",
+        "yahoo_ticker": "AXTELCPO.MX",
+        "local_ticker": "AXTEL",
         "name": "Axtel SAB de CV"
     }, {
         "industries": ["Materials", "Iron & Steel", "Steel Raw Material Suppliers"],
